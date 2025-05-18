@@ -1,5 +1,5 @@
 import styles from '../styles/home.module.css'
-import Project from '../Project'
+import Project from '../components/Project'
 import { Children } from 'react'
 
 export default function Home() {

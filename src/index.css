@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 20vh 20vw;
   text-align: center;
 }
 /* 
@@ -28,6 +28,7 @@ button {
   border: 2px, solid, #d43e10;
   padding: 8px 16px;
   text-transform: uppercase;
+  margin: 10px;
 }
 
 button:hover {
@@ -37,4 +38,9 @@ button:hover {
   padding: 8px 16px;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+li {
+  list-style: none;
+  text-align: left;
 }
