@@ -10,7 +10,7 @@ export default function Home() {
   ]
   return (
     <main>
-      <h1 className={styles.placeholder}>Cassie Andrews</h1>
+      <h1 className={styles.home}>Cassie Andrews</h1>
       <h2>Graphic & Web Designer</h2>
       <button>Contact</button>
       <>
