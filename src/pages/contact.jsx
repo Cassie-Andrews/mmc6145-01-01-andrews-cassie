@@ -1,6 +1,6 @@
 import styles from '../styles/contact.module.css'
 
-export default function contact() {
+export default function Contact() {
   return (
     <main>
       <h1 className={styles.contact}>Let's talk!</h1>

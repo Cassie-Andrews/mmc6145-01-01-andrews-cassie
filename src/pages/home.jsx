@@ -8,14 +8,14 @@ export default function Home() {
     "Project Title 2"
   ]
   return (
-    <main>
-      <h1 className={styles.home}>Cassie Andrews</h1>
-      <h2>Graphic & Web Designer</h2>
-      <button href="../about">About</button>
-      <button href="../contact">Contact</button>
+    <div>
+      <div className={styles.home}>
+        <h1 className={styles.home__title}>Cassie Andrews</h1>
+        <h2 className={styles.home__subtitle}>Graphic & Web Designer</h2>
+      </div>
       <>
         {projectTitle.map((projectTitle, i) => <Project key={i}>{projectTitle}</Project> )}
       </>
-    </main>
+    </div>
   )
 }

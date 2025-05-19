@@ -1,7 +1,20 @@
 .home {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
+
+.home__title {
   color: #d43e10;
+  margin: 2vh 0;
+}
+
+.home__subtitle {
+  margin: 0;
+  margin: 2vh 0;
 }
 
 .project {
   color: blue;
+  margin: 10vh 0;
 }
