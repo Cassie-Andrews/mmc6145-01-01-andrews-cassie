@@ -1,17 +1,16 @@
 import styles from '../styles/home.module.css'
 import Project from '../components/Project'
-import viteLogo from '../../public/vite.svg'
 import { Children } from 'react'
 
 export default function Home() {
   const projects = [
     {
-      image: "../../public/project1.png",
+      image: "/project1.png",
       title: "Group Project: Live Music App",
       url: "https://cassie-andrews.github.io/com6338-10-10-andrews-torna/"
     },
     {
-      image: "../../public/project2.png",
+      image: "/project2.png",
       title: "Booktracker App",
       url: "https://book-tracker-andrews-1552592bed34.herokuapp.com/"
     }
