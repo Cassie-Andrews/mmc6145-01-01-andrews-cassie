@@ -1,0 +1,15 @@
+.about {
+    text-align: left;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    max-width: 600px;
+}
+
+.about__header {
+    text-align: left;
+}
